@@ -39,7 +39,8 @@ class HelloWorldServer(private val port: Int) {
             .build()
     }
 }
-fun main() {
+
+suspend fun main(args: Array<String>){
     val port = System.getenv("PORT")?.toInt() ?: 50051
     val server = HelloWorldServer(port)
     server.start()
