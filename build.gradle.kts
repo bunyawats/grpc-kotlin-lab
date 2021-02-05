@@ -18,9 +18,9 @@ plugins {
 group = "com.kotlingrpc"
 version = "0.0.1-SNAPSHOT"
 
-var grpcVersion = "1.32.1"
+var grpcVersion = "1.35.0"
 var grpcKotlinVersion = "1.0.0" // CURRENT_GRPC_KOTLIN_VERSION
-var protobufVersion = "3.13.0"
+var protobufVersion = "3.14.0"
 
 allprojects {
     repositories {
