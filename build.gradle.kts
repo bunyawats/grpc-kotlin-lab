@@ -61,7 +61,7 @@ protobuf {
     protoc {
         artifact = "com.google.protobuf:protoc:${protobufVersion}"
     }
-    generatedFilesBaseDir = "$projectDir/src/main/kotlin/generated"
+    generatedFilesBaseDir = "$projectDir/build/generated"
     plugins {
         id("grpc") {
             artifact = "io.grpc:protoc-gen-grpc-java:${grpcVersion}"
